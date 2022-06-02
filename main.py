@@ -6,7 +6,6 @@ REQUEST_TIME = Summary('request_processing_seconds', 'Time spent processing requ
 
 @REQUEST_TIME.time()
 def process_request(t):
-    """add()"""
     time.sleep(t)
 
 if __name__ == '__main__':
