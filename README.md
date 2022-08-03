@@ -30,3 +30,5 @@
 [rtd-link]:                 https://af-metrics.readthedocs.io/en/latest/?badge=latest
 [sk-badge]:                 https://scikit-hep.org/assets/images/Scikit--HEP-Project-blue.svg
 <!-- prettier-ignore-end -->
+
+# Monitoring the Coffea-Casa Analysis Facility using Prometheus Monitoring tool and generating dashboards from the collected metrics using Grafana
