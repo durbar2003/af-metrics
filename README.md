@@ -31,4 +31,8 @@
 [sk-badge]:                 https://scikit-hep.org/assets/images/Scikit--HEP-Project-blue.svg
 <!-- prettier-ignore-end -->
 
-# Monitoring the Coffea-Casa Analysis Facility using Prometheus Monitoring tool and generating dashboards from the collected metrics using Grafana
+ Python package for monitoring the Coffea-Casa Analysis Facility using Prometheus Monitoring tool and generating dashboards from the collected metrics using Grafana. The package deploys Prometheus locally on localhost:8003 and establishes a connection between Prometheus and the JSON Data collected from the specific Jupyter Notebook to be monitored in the Coffea-Casa Analysis Facility using the Prometheus Client Package. This JSON data serves as the custom metrics for the Prometheus server. These Prometheus metrics serve as the data for generating convenient dashboards using the Grafana tool. 
+
+ The current infrastructure can be represented as:
+
+ ![Infrastructure Diagram](assets\infrastructure.png?raw=true "Title")
