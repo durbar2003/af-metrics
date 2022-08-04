@@ -35,4 +35,4 @@
 
  The current infrastructure can be represented as:
 
- ![Infrastructure Diagram](assets\infrastructure.png?raw=true "Title")
+![infrastructure](https://user-images.githubusercontent.com/74106901/182768577-054b914d-bab8-470a-b192-fb6eb6156a0e.png)
