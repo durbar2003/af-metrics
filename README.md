@@ -36,3 +36,5 @@
  The current infrastructure can be represented as:
 
 ![infrastructure](https://user-images.githubusercontent.com/74106901/182768577-054b914d-bab8-470a-b192-fb6eb6156a0e.png)
+
+In the existing infrastructure of Coffea Casa Analysis Facility, the individual users run their own Jupyterhub and Dask Servers at the corresponding endpoints. In our project, we try to scrape these individual endpoints and also that of the Coffea Casa Analysis Facility as a whole using useful metrics and thus monitor the facility using the Prometheus tool. Based on the scraped metrics, we can visualize the results conveniently by generating dashboards using the Grafana tool. So Prometheus connects to the Jupyterhub and Dask Servers of the existing users and the Facility to monitor the specific metrics and Grafana, in turn, connects to Prometheus and generates useful dashboards based on the results of the monitoring process. The process of dashboard generation can also be automated using grafanalib library which automatically generates a suitable json file specifying the dashboard datasource as well as the appearance of the dashboard. 
