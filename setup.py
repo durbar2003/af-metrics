@@ -9,7 +9,13 @@ from __future__ import annotations
 from setuptools import setup
 
 setup(
-    
+    name='af-metrics',
+    version='0.1.0',
+    description='A Python package for monitoring the Coffea Casa Analysis Facility',
+    author='Durbar Chakraborty',
+    author_email='durbardibyo@gmail.com',
+    packages=['af_metrics'],
+    install_requires=['prometheus_client >= 0.14.1']
 )
 
 # This file is optional, on recent versions of pip you can remove it and even
