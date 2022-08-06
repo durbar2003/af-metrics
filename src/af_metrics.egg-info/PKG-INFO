@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: af-metrics
-Version: 0.1.dev16+g44de334.d20220806
+Version: 0.1.dev17+g54c507e.d20220806
 Summary: A Python package for monitoring the Coffea Casa Analysis Facility
 Home-page: https://github.com/durbar2003/af-metrics
 Author: Durbar Chakraborty
