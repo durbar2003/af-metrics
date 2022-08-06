@@ -15,7 +15,7 @@ setup(
     author='Durbar Chakraborty',
     author_email='durbardibyo@gmail.com',
     packages=['af_metrics'],
-    install_requires=['prometheus-client']
+    install_requires=['prometheus_client >= 0.14.1']
 )
 
 # This file is optional, on recent versions of pip you can remove it and even
