@@ -35,6 +35,7 @@ class CustomCollector(object):
            g.add_metric([str(key['metric'])], key['value'])
            yield g
 
+
 if __name__ == '__main__':
     start_http_server(8003)
     REGISTRY.register(CustomCollector())

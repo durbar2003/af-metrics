@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: af-metrics
-Version: 0.1.0
+Version: 0.1.dev22+ge30735b.d20220806
 Summary: A Python package for monitoring the Coffea Casa Analysis Facility
 Home-page: https://github.com/durbar2003/af-metrics
 Author: Durbar Chakraborty
@@ -73,5 +73,3 @@ License-File: LICENSE
 ![infrastructure](https://user-images.githubusercontent.com/74106901/182768577-054b914d-bab8-470a-b192-fb6eb6156a0e.png)
 
 In the existing infrastructure of Coffea Casa Analysis Facility, the individual users run their own Jupyterhub and Dask Servers at the corresponding endpoints. In our project, we try to scrape these individual endpoints and also that of the Coffea Casa Analysis Facility as a whole using useful metrics and thus monitor the facility using the Prometheus tool. Based on the scraped metrics, we can visualize the results conveniently by generating dashboards using the Grafana tool. So Prometheus connects to the Jupyterhub and Dask Servers of the existing users and the Facility to monitor the specific metrics and Grafana, in turn, connects to Prometheus and generates useful dashboards based on the results of the monitoring process. The process of dashboard generation can also be automated using grafanalib library which automatically generates a suitable json file specifying the dashboard data source as well as the appearance of the dashboard. 
-
-

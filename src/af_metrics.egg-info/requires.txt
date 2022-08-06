@@ -1,4 +1,4 @@
-prometheus_client>=0.14.1
+prometheus-client
 
 [dev]
 pytest>=6
