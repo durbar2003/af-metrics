@@ -44,3 +44,20 @@ Install the package with the command:
 ```bash
   pip install af-metrics
 ```
+
+This converts the JSON Data into Prometheus metrics and it can now be easily accessed by the user once he starts the server.
+
+You can now test the prometheus metrics by running a similar code snippet:
+
+```bash
+  from af_metrics import CustomCollector
+import time
+from prometheus_client.core import REGISTRY
+from prometheus_client import start_http_server
+
+if __name__ == '__main__':
+    start_http_server(8000)
+    REGISTRY.register(CustomCollector())
+    while True:
+        time.sleep(1)
+```
