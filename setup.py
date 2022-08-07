@@ -8,8 +8,8 @@
 from setuptools import setup
 
 setup(
-    name='af-metrics',
-    version='0.1.0',
+    name='af_metrics',
+    version='',
     description='A Python package for monitoring the Coffea Casa Analysis Facility',
     author='Durbar Chakraborty',
     author_email='durbardibyo@gmail.com',
