@@ -61,3 +61,7 @@ if __name__ == '__main__':
     while True:
         time.sleep(1)
 ```
+
+This will start the server at **localhost:8000**.
+
+Open the browser and start **localhost:8000** to test the JSON Data converted to Prometheus Metrics.
