@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+af_metrics/__init__.py
+af_metrics/monitoring_module.py
+af_metrics.egg-info/PKG-INFO
+af_metrics.egg-info/SOURCES.txt
+af_metrics.egg-info/dependency_links.txt
+af_metrics.egg-info/requires.txt
+af_metrics.egg-info/top_level.txt
