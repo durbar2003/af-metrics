@@ -50,7 +50,7 @@ This converts the JSON Data into Prometheus metrics and it can now be easily acc
 You can now test the prometheus metrics by running a similar code snippet:
 
 ```bash
-  from af_metrics import CustomCollector
+from af_metrics import CustomCollector
 import time
 from prometheus_client.core import REGISTRY
 from prometheus_client import start_http_server
