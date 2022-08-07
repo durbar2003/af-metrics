@@ -42,5 +42,5 @@ In the existing infrastructure of Coffea Casa Analysis Facility, the individual 
 Install the package with the command:
 
 ```bash
-  npm run deploy
+  pip install af-metrics
 ```
