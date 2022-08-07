@@ -8,7 +8,7 @@ af-metrics: Source code for analysis of metrics on Coffea-Casa Analysis Facility
 from __future__ import annotations
 
 from ._version import version as __version__
-# from .monitoring_module import CustomCollector
+from af_metrics.monitoring_module import CustomCollector
 
 __all__ = ("__version__",)
 
