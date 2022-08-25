@@ -13,19 +13,19 @@ class CustomCollector(object):
             "coffea_notebook_metric": [
                 {
                 "metric": {"bytesread":2076921210},
-                "value":0
+                "value":2076921219
                 },
                 {
                 "metric": {"entries":53446198},
-                "value":0
+                "value":53446198
                 },
                 {
                 "metric":{"processtime":741.4781568050385},
-                "value":0
+                "value":741.4781568050385
                 },
                 {
                 "metric":{"chunks":267},
-                "value":0
+                "value":267
                 }
             ]
         }
